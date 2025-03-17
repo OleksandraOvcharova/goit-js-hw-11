@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export function getImages(search) {
   return axios
-    .get('https://pixabay.com/api', {
+    .get('https://pixabay.com/api/', {
       params: {
         key: '49368815-3bbcd5bcef21230b847f53bd6',
         q: search,
